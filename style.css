@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+.top-banner{
+    background-image: url(donate-today-main/images/floods-in-bangladesh-1564803804.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0%;
+    text-align: center justify;
+    display: flex;
+    padding-left: 21.5%;
+    padding-top: 16%;
+    padding-right: 25%;
+    padding-bottom: 25%;
+    color: rgb(22, 10, 10);
+    font-size: 22px;
+}
+#donate-button {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 3px;
+}
+span{
+    color: red;
+}
+#title{
+    color: green;
+}
+strong{
+    color: rgb(127, 187, 6);
+}
+.middle-banner{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10%;
+}
+.amount{
+    display: flex;
+    color: gray;
+    font-size: 50px;
+    padding-left: 30%;
+    text-align: justify;
+    
+}
+#selected-amount{
+    color: red;
+    border-style: red solid;
+}
+#other-amount{
+    color: gray;
+    size: 5px;
+}
+.donate-plan{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10%;
+}
