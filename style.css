@@ -25,6 +25,7 @@ body{
     padding: 10px 40px;
     background-color: tomato;
     border-radius: 3px;
+    margin-top: 2%;
 }
 span{
     color: red;
@@ -38,26 +39,160 @@ strong{
 .middle-banner{
     text-align: center;
     font-size: 30px;
-    padding-top: 10%;
+    padding-top: 9.5%; 
 }
 .amount{
     display: flex;
+    gap: 50px;
     color: gray;
     font-size: 50px;
-    padding-left: 30%;
-    text-align: justify;
-    
+    padding-left: 26%;
+    text-align: center; 
+}
+#other-amount{
+    padding-top: 45px;
 }
 #selected-amount{
     color: red;
-    border-style: red solid;
+    border: red solid;
+    background-color: rgb(255, 247, 249);
+    border-radius: 7px;
+    padding: 2.7% 1.5%;
+    text-align: center;
 }
-#other-amount{
-    color: gray;
-    size: 5px;
+#input1{
+    width: 50%;
+    background-color: #fcfcff;
+    border: 0;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;  
 }
 .donate-plan{
     text-align: center;
     font-size: 30px;
+    padding-top: 12%;
+}
+.donate-plans{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    margin: 2.5%; 
+}
+#dp1{
+    background-color: rgb(187, 255, 255);
+    margin: 2.5%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+#dp2{
+    background-color: rgb(253, 219, 225);
+    margin: 2.5%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+#dp3{
+    background-color: blanchedalmond;
+    margin: 2.5%;
+    padding-left: 1.5%;
+    padding-right: 1%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.lower-banner1 {
+    display: flex;
+    padding-left: 12.5%;
+    padding-top: 3%;
+
+}
+.lower-banner1 img{
+    width: 70%;
+    padding-left: 15%;
+    margin-left: 20%;
+}
+#lower-banner-text1{
+    padding-top: 5%;
+    
+}
+.lower-banner2 {
+    display: flex;
+    padding-top: 2.5%;
+}
+#lower-banner-text2{
+    padding-top: 5%;
+    padding-right: 2%;
+}
+.lower-banner2 img{
+    width: 65%;
+    margin-left: 15%;
+}
+.testimonial{
+    display: flex;
+    text-align: center;
+    margin: 5%;
+    padding-top: 9%;
+}
+#speech{
+    padding-left: 13%;
+    padding-top: 5%;
+    font-size: 20px;
+}
+.testimonial img{
+    width: 100%;
+    padding-left: 5%;
+}
+#signature{
+    font-family: 'Splash', cursive;;
+}
+.newsletters{
+    text-align: center;
+    font-size: 20px;
     padding-top: 10%;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-color: blanchedalmond;
+    padding: 5%;
+    background-size: 20%;  
+}  
+button{
+    color: #fcfcff;
+    background-color: red;
+    margin-left: -5px;
+    border: none;
+    font-size: 25px;
+    padding: 7px 20px;
+}
+#input2{
+    background-color: lightgray;
+    border: none;
+    font-size: 25px;
+    padding: 7px 20px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding-left: 42%;
+    padding-right: 45%;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-size: 25px;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+#footer{
+    font-family: 'Dancing Script', cursive;
+    color: tomato;
+    font-weight: 900;
+    padding-bottom: 0%;
 }
