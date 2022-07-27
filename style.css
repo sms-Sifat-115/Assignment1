@@ -9,12 +9,12 @@ body{
     margin: 0%;
     text-align: center justify;
     display: flex;
-    padding-left: 21.5%;
+    padding-left: 20.5%;
     padding-top: 16%;
     padding-right: 25%;
     padding-bottom: 25%;
     color: rgb(22, 10, 10);
-    font-size: 22px;
+    font-size: 21px;
 }
 #donate-button {
     text-decoration: none;
@@ -31,15 +31,15 @@ span{
     color: red;
 }
 #title{
-    color: green;
+    color: rgba(0, 128, 0, 0.74);
 }
 strong{
-    color: rgb(127, 187, 6);
+    color: rgb(170, 255, 0);
 }
 .middle-banner{
     text-align: center;
     font-size: 30px;
-    padding-top: 9.5%; 
+    padding-top: 15%; 
 }
 .amount{
     display: flex;
@@ -73,6 +73,7 @@ strong{
     text-align: center;
     font-size: 30px;
     padding-top: 12%;
+    margin-bottom: 7%;
 }
 .donate-plans{
     display: flex;
@@ -134,20 +135,28 @@ strong{
 .testimonial{
     display: flex;
     text-align: center;
-    margin: 5%;
-    padding-top: 9%;
+    margin: 7%;
+    margin-top: 17%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: linear-gradient(to bottom right, #EFF54D, #00AC61); 
+    border-radius: 15px;
+    
 }
 #speech{
     padding-left: 13%;
     padding-top: 5%;
     font-size: 20px;
+    
 }
 .testimonial img{
     width: 100%;
     padding-left: 5%;
 }
 #signature{
-    font-family: 'Splash', cursive;;
+    font-family: 'Splash', cursive;
 }
 .newsletters{
     text-align: center;
@@ -158,9 +167,9 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    margin: 5% 10%;
     background-color: blanchedalmond;
-    padding: 5%;
+    padding: 5% 1%;
     background-size: 20%;  
 }  
 button{
@@ -169,13 +178,15 @@ button{
     margin-left: -5px;
     border: none;
     font-size: 25px;
-    padding: 7px 20px;
+    padding: 15px 25px;
+    margin-bottom: 5px;
 }
 #input2{
     background-color: lightgray;
     border: none;
     font-size: 25px;
-    padding: 7px 20px;
+    padding: 5px 20px;
+    padding-bottom: 15px;
 }
 footer{
     background-color: black;
