@@ -12,12 +12,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
 </head>
 <body>
-    <section class="top-banner">
-        <div>
-            <h1 id="title">Let's Help <span>Humanity</span> For A Better Earth</h1>
-            <p><strong>"Help for Humanity"</strong> is a Non-Profit organization that helps people  <br>
-                Who are in need. If you wanna help them, then...</p>
-            <a id="donate-button" href="https://www.gmb-akash.com/stories/47/"> Donate Now</a>
+    <section class="top-banner text-center text-xl-start">
+        <div class="position-relative">
+            <img class="w-100" id="banner-img" src="./donate-today-main/images/floods-in-bangladesh-1564803804.jpg" alt="">
+            <div class="position-absolute top-50 start-50 translate-middle" id="banner">
+                <h1 id="title">Let's Help <span id="humanity">Humanity</span> For A Better Earth</h1>
+                <p class="text-light fw-bold" id="banner-text"><strong>"Help for Humanity"</strong> is a Non-Profit organization that helps people  <br>
+                    Who are in need. If you wanna help them, then...</p>
+                <button type="button" class="btn btn-danger p-3 text-light" href="https://www.gmb-akash.com/stories/47/">Donate Now</button>
+            </div>
         </div>
     </section>
     <section class="middle-banner">
@@ -26,27 +29,25 @@
             <p>Donate to the People who are ravaged by Natural Disasters</p>
             <p>Your small contribution can make <b>HUGE</b> impact!</p>
         </div>
-        <div class="amount">
-            <div id="other-amount">100tk</div>
-            <div id="other-amount">200tk</div>
-            <div id="selected-amount">
-                500tk
-            </div>
-            <div id="other-amount">1000tk</div>
-            <div id="other-amount">5000tk</div>
+        <div class="my-5 amount d-flex flex-column flex-xl-row align-items-center justify-content-evenly">
+            <button type="button" class="px-5 py-4 m-3 fw-bold btn btn-outline-danger opacity-75">100৳</button>
+            <button type="button" class="px-5 py-4 m-3 fw-bold btn btn-outline-danger opacity-75">200৳</button>
+            <button type="button" class="px-5 py-4 m-3 fw-bold btn btn-outline-danger opacity-75">500৳</button>
+            <button type="button" class="px-5 py-4 m-3 fw-bold btn btn-outline-danger opacity-75">700৳</button>
+            <button type="button" class="px-5 py-4 m-3 fw-bold btn btn-outline-danger opacity-75">1000৳</button>
         </div>
         <input id="input1" type="text" placeholder="Other Amount (Taka)"> <br>
-        <a id="donate-button" href="https://www.gmb-akash.com/stories/47/"> Donate Now</a>
+        <a class="btn btn-outline-danger p-3" id="donate-button" href="https://www.gmb-akash.com/stories/47/"> Donate Now</a>
     </section>
     <section class="donate-plan">
         <h1>Our Donate Plan</h1>
         <p>You can choose what you want to donate for.</p>
         <p>We will make sure every Penny counts!</p>
-        <div class="donate-plans">
-            <div id="dp1">
+        <div class="donate-plans d-flex flex-column flex-xl-row">
+            <div id="dp1" class="">
                 <img src="donate-today-main\icons\food.png" alt="icon1">
                 <h2>Food for a Family</h2>
-                <p>Every day almost 80milion people are Starving</p>
+                <p>Every day almost 80 million people are Starving</p>
                 <p>Share your food with them</p>
                 <p>And help them to live</p>
                 <p><b> Donate Today!</b></p>
@@ -62,49 +63,49 @@
             <div id="dp3">
                 <img src="donate-today-main\icons\Frame-1.png" alt="icon3">
                 <h2>Education for a Child</h2>
-                <p>Millions of young minds are away from the Privilage of Eduacation</p>
+                <p>Millions of young minds are away from the Privilege of Education</p>
                 <p>Help them to gain a healthy Education</p>
                 <p>To Live a Better Life</p>
                 <p><b>Donate Today!</b></p>
             </div>
         </div>
     </section>
-    <section class="lower-banner ">
-        <div class="lower-banner1">
-            <div id="lower-banner-text1">
+    <section class="lower-banner">
+        <div class="d-flex flex-column flex-xl-row justify-content-center text-center text-xl-start mb-4">
+            <div id="lower-banner-text1" class="p-4">
                 <h1>Their Lives Depends on Your Donation</h1>
                 <p>Many people are homeless, starved & raved disasters </p>
                 <p>They need a hope to Live</p>
                 <p>Your one donation can change their lives</p>
-                <a id="donate-button" href="https://www.gmb-akash.com/stories/47/"> Make a Change!</a>
+                <button type="button" class="btn btn-outline-danger p-3 my-3" href="https://www.gmb-akash.com/stories/47/">Make a Change !</button>
             </div>
             <div>
-                <img src="donate-today-main\images\donation6.jpg" alt="Crisis1">
+                <img id="lower-banner" class="container-fluid" src="donate-today-main\images\donation6.jpg" alt="Crisis1"/>
             </div>
         </div>
-        <div class="lower-banner2">
+        <div class="d-flex flex-column-reverse my-3 flex-xl-row justify-content-center text-center text-xl-start">
             <div>
-                <img src="donate-today-main\images\donation8.jpg" alt="Crisis2">
+                <img id="lower-banner" class="container-fluid" src="donate-today-main\images\donation8.jpg" alt="Crisis2"/>
             </div>
-            <div id="lower-banner-text2">
+            <div id="lower-banner-text2" class="p-4">
                 <h1>They need Us to Survive</h1>
                 <p>Millions of people are struggling to Survive</p>
                 <p>They need your precious support to live</p>
                 <p>Your small step can make a huge leap</p>
-                <a id="donate-button" href="https://www.gmb-akash.com/stories/47/">How to Contribute?</a>
+                <button type="button" class="btn btn-outline-danger p-3 my-3" href="https://www.gmb-akash.com/stories/47/">How to Contribute?</button>
             </div>
         </div>
     </section>
-    <section class="testimonial shadow-lg">
+    <section class="testimonial shadow-lg d-flex justify-content-evenly align-items-center text-center p-5 m-xl-5 flex-column flex-xl-row">
         <div>
-            <img src="donate-today-main\images\jhankar2.png" alt="JhankarSir">
+            <img class="container-fluid" src="donate-today-main\images\jhankar2.png" alt="JhankarSir">
         </div>
-        <div id="speech">
+        <div id="speech text-center">
             <h1>Testimonial</h1>
-            <p>" <strong style="color: rgba(255, 238, 238, 0.945);">Help for Humanity</strong> are taking a great initaitive to make Earth a better place </p>
-            <p>I can't stress engough to express that how much impact they are putting on unpriviliged comunities</p>
-            <p>I cordially thank them for helping the humanity</p>
-            <p>I think you should also join their Mission and make world a Better place for Us"</p>
+            <p>" <strong style="color: rgba(255, 238, 238, 0.945);">Help for Humanity</strong> are taking a great initiative to make Earth a better place <br>
+            I can't stress enough to express that how much impact they are putting on under privileged communities <br>
+            <span class="d-none d-xl-inline">I cordially thank them for helping the humanity <br>
+            I think you should also join their Mission and make world a Better place for Us" </span></p>
             <h1 id="signature">Jhankar Mahbub</h1>
             <p>CEO, Programming Hero</p>
         </div>
@@ -115,13 +116,16 @@
             <p>Join our Newsletters to get information about our new activities</p>
             <p>It's Free!</p>
         </div>
-        <div class="email">
-            <div>
-                <input id="input2" type="Email" placeholder="Email">  <button>Subscribe</button>
+        <form class="email container-xl text-center p-5 my-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label fs-2">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-        </div>
+            <button type="submit" class="btn btn-danger">Subscribe</button>
+          </form>
     </section>
-    <footer>
+    <footer class="d-flex flex-column justify-content-center align-items-center py-5">
         <h1 id="footer">Be Humble</h1>
         <p>I'm Gonna Do It</p>
     </footer>

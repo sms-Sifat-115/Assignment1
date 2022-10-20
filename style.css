@@ -2,8 +2,22 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
-.top-banner{
-    background-image: url(donate-today-main/images/floods-in-bangladesh-1564803804.jpg);
+#banner-img {
+    opacity: 0.55;
+}
+.top-banner {
+    background-color: rgba(0, 0, 0, 0.909);
+    
+}
+#lower-banner {
+    border-radius: 15px 50px;
+}
+#humanity{
+    color: red !important;
+    text-shadow: none;
+}
+/* .top-banner{ */
+    /* background-image: url(donate-today-main/images/floods-in-bangladesh-1564803804.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0%;
@@ -15,8 +29,8 @@ body{
     padding-bottom: 25%;
     color: rgb(22, 10, 10);
     font-size: 21px;
-}
-#donate-button {
+} */
+/* #donate-button {
     text-decoration: none;
     color: aliceblue;
     font-weight: 800;
@@ -26,12 +40,13 @@ body{
     background-color: tomato;
     border-radius: 3px;
     margin-top: 2%;
-}
-span{
+} */
+/* span{
     color: red;
-}
+} */
 #title{
     color: rgba(0, 128, 0, 0.74);
+    text-shadow: 3px 3px 5px yellowgreen;
 }
 strong{
     color: rgb(170, 255, 0);
@@ -41,27 +56,18 @@ strong{
     font-size: 30px;
     padding-top: 15%; 
 }
-.amount{
-    display: flex;
-    gap: 50px;
-    color: gray;
-    font-size: 50px;
-    padding-left: 26%;
-    text-align: center; 
-}
-#other-amount{
-    padding-top: 45px;
-}
-#selected-amount{
+
+
+/* #selected-amount{
     color: red;
     border: red solid;
     background-color: rgb(255, 247, 249);
     border-radius: 7px;
     padding: 2.7% 1.5%;
     text-align: center;
-}
+} */
 #input1{
-    width: 50%;
+    width: 75%;
     background-color: #fcfcff;
     border: 0;
     border-bottom: 2px solid lightgray;
@@ -75,12 +81,7 @@ strong{
     padding-top: 12%;
     margin-bottom: 7%;
 }
-.donate-plans{
-    display: flex;
-    text-align: left;
-    font-size: 20px;
-    margin: 2.5%; 
-}
+
 #dp1{
     background-color: rgb(187, 255, 255);
     margin: 2.5%;
@@ -133,14 +134,7 @@ strong{
     margin-left: 15%;
 }
 .testimonial{
-    display: flex;
-    text-align: center;
-    margin: 7%;
-    margin-top: 17%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 25px;
-    padding-right: 25px;
+    
     background-image: linear-gradient(to bottom right, #EFF54D, #00AC61); 
     border-radius: 15px;
     
@@ -164,13 +158,8 @@ strong{
     padding-top: 10%;
 }
 .email{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5% 10%;
     background-color: blanchedalmond;
-    padding: 5% 1%;
-    background-size: 20%;  
+    
 }  
 button{
     color: #fcfcff;
@@ -191,10 +180,6 @@ button{
 footer{
     background-color: black;
     text-align: center;
-    padding-left: 42%;
-    padding-right: 45%;
-    padding-top: 20px;
-    padding-bottom: 70px;
     font-size: 25px;
 }
 footer p{
@@ -206,4 +191,22 @@ footer p{
     color: tomato;
     font-weight: 900;
     padding-bottom: 0%;
+}
+@media screen and (max-width:480px) {
+    #title{
+        font-size: 17px;
+    }
+    #banner-text {
+        font-size: 10px;
+    }
+    #banner {
+        top: 10px;
+    }
+    /* .btn{
+        background-color: red !important;
+        color: white !important;
+    } */
+    #banner-img {
+        opacity: 0.5;
+    }
 }
